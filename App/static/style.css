@@ -142,3 +142,205 @@ body{
     font-size: 12px;
   }
   
+
+.card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px; 
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+
+
+.sidebar-card {
+  width: 225px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.sidebar-card-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sidebar-card-content {
+  flex: 1;
+}
+
+.sidebar-card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  display: block;
+  padding: 13px 30px;
+  color: rgb(241, 237, 237);
+  position: relative;
+}
+
+.sidebar-card-description {
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.sidebar-card-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+
+.btn1{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer; 
+}
+
+.card-description-toggle {
+  display: none;
+}
+
+.card-description-label {
+  cursor: pointer;
+}
+
+.card-description {
+  display: none;
+}
+
+.card-description-toggle:checked + .card-description-label + .card-description {
+  display: block;
+}
+
+.card-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-action a {
+  text-align: center;
+}
+
+body.list-container {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.list-container {
+  width: 100%; 
+  background-color: #0e0a0a;
+  padding: 100px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container h2 {
+  color: white;
+  margin-top: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+.list-container h3 {
+  color: white;
+  margin-top: 0;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 10vh;
+}
+
+
+.list-container ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.list-container li {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%; 
+}
+
+
+.list-container a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  display: block; 
+  padding: 10PX 200px;
+}
+
+.list-container a:hover {
+  color: #007bff;
+}
+
+body.exercise-container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.exercise-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.exercise-image {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.exercise-name {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.exercise-description {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #777;
+}
+
